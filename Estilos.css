@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Menu{
+    background-color: grey;
+    width: 20%;
+    height: 1000px;
+    float: left;
+}
+#Texto1{
+    background-color:aqua ;
+    width: 80% ;
+    height: 250px;
+    float: right;
+}
+#Texto2{
+    background-color: yellow ;
+    width: 80% ;
+    height: 250px;
+    float: right;
+}
+#Texto3{
+    background-color:orangered ;
+    width: 80% ;
+    height: 250px;
+    float: right;
+}#Texto4{
+    background-color: red ;
+    width: 80% ;
+    height: 250px;
+    float: right;
+}
+/*Define la clase estilo*/
+.Estilo{
+    /*Escoge el color de la letra*/
+    color: black;
+    /*le quita lo surrayado al texto*/
+    text-decoration: none;
+}
+/*cambia el color del enlace al pasar el cursor por encima*/
+.Estilo:hover{
+    color: ghostwhite;
+}
